@@ -27,6 +27,11 @@ A simple API to generate PNG images with text using Node.js, Express, and Canvas
 ```bash
 npm install
 ```
+### Build the project
+
+```bash
+npm run build
+```
 
 ### Run the API locally
 
