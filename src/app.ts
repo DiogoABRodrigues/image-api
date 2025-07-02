@@ -5,6 +5,6 @@ const app = express();
 
 app.use(express.json());
 // Middleware to handle JSON requests
-app.use('/api/images', imageRoutes);
+app.use('/images', imageRoutes);
 
 export default app;

@@ -36,7 +36,7 @@ npm run start
 
 ### Send a request to generate an image
 
-Endpoint: `POST /generate`
+Endpoint: `POST /images/generate`
 
 Example JSON request body:
 
@@ -47,6 +47,8 @@ Example JSON request body:
 ```
 
 Response: PNG image generated with the provided text.
+
+Note: The image will be saved in the `/images` directory.
 
 ### Tests
 
